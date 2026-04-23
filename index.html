@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Revati Firke | Full Stack Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader">
+        <span class="loader-text">RF</span>
+        <div class="loader-ring"></div>
+      </div>
+    </div>
+
+    <!-- Back to Top -->
+    <button
+      id="backToTop"
+      onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+    >
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+      <div class="nav-container">
+        <a href="#" class="logo">R<span>F</span></a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <canvas id="heroCanvas"></canvas>
+      <div class="hero-content">
+        <div class="hero-badge">
+          <i class="fas fa-rocket"></i> Open to Opportunities
+        </div>
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Revati Firke</h1>
+        <h2 class="hero-title">
+          <span id="typed-text"></span><span class="cursor">|</span>
+        </h2>
+        <p class="hero-desc">
+          Crafting robust backends with Golang, building sleek Android apps, and
+          orchestrating CI/CD pipelines — I turn ideas into production-ready
+          software.
+        </p>
+        <div class="hero-btns">
+          <a href="#contact" class="btn btn-primary"
+            ><i class="fas fa-paper-plane"></i> Get In Touch</a
+          >
+          <a href="#projects" class="btn btn-outline"
+            ><i class="fas fa-code"></i> View Projects</a
+          >
+          <a href="#about" class="btn btn-ghost"
+            ><i class="fas fa-user"></i> Know More</a
+          >
+        </div>
+        <div class="hero-socials">
+          <a
+            href="https://linkedin.com/in/revati-firke95b73b232"
+            target="_blank"
+            aria-label="LinkedIn"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a
+            href="https://github.com/Revati-Firke"
+            target="_blank"
+            aria-label="GitHub"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="mailto:revatifirke02@gmail.com" aria-label="Email"
+            ><i class="fas fa-envelope"></i
+          ></a>
+          <a
+            href="https://instagram.com/qhf_warrior_revatif"
+            target="_blank"
+            aria-label="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="mouse"><div class="wheel"></div></div>
+        <span>Scroll Down</span>
+      </div>
+    </section>
+
+    <!-- Stats Banner -->
+    <section class="stats-banner">
+      <div class="container stats-grid">
+        <div class="stat-item">
+          <span class="stat-number" data-target="1">0</span
+          ><span class="stat-plus">+</span>
+          <p>Years Experience</p>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="8">0</span
+          ><span class="stat-plus">+</span>
+          <p>Technologies</p>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="3">0</span
+          ><span class="stat-plus">+</span>
+          <p>Projects Delivered</p>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="1">0</span>
+          <p>State Level Award</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <div class="about-intro-badge">
+              <i class="fas fa-terminal"></i> who_am_i
+            </div>
+            <p>
+              I'm a passionate
+              <strong>Full Stack Software Engineer</strong> currently working at
+              <strong>Lemma Technologies, Pune</strong>. I specialize in backend
+              API development with <strong>Golang</strong>, Android application
+              development, and DevOps tooling.
+            </p>
+            <p>
+              With a Master's in Computer Applications (MCA) from Kavayitri
+              Bahinabai Chaudhari North Maharashtra University, Jalgaon, I bring
+              a strong foundation in software engineering combined with
+              real-world industry experience.
+            </p>
+            <p>
+              I'm also a proud volunteer of the
+              <strong>Cyber Shiksha for Cyber Suraksha</strong>
+              program by Quick Heal Foundation, and a recipient of the
+              <strong>State Level Best Community Direct Award</strong>.
+            </p>
+            <div class="about-highlights">
+              <div class="highlight">
+                <i class="fas fa-check-circle"></i> Backend & API Development
+              </div>
+              <div class="highlight">
+                <i class="fas fa-check-circle"></i> Android App Development
+              </div>
+              <div class="highlight">
+                <i class="fas fa-check-circle"></i> CI/CD & DevOps
+              </div>
+              <div class="highlight">
+                <i class="fas fa-check-circle"></i> IoT & Raspberry Pi
+              </div>
+            </div>
+          </div>
+          <div class="about-cards">
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fas fa-briefcase"></i></div>
+              <h3>1+ Year</h3>
+              <p>Work Experience</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <h3>MCA</h3>
+              <p>Post Graduate</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon"><i class="fas fa-award"></i></div>
+              <h3>State Award</h3>
+              <p>Quick Heal Foundation</p>
+            </div>
+            <div class="info-card">
+              <div class="info-card-icon">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <h3>Cyber Volunteer</h3>
+              <p>Cyber Suraksha Program</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fas fa-building"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-date"
+                ><i class="far fa-calendar-alt"></i> Jan 2025 – Present</span
+              >
+              <h3>Software Engineer</h3>
+              <h4>
+                <i class="fas fa-map-marker-alt"></i> Lemma Technologies, Pune
+              </h4>
+              <ul>
+                <li>
+                  Backend API development with Golang & integrations across
+                  projects
+                </li>
+                <li>Android application development & bug fixing</li>
+                <li>Windows & Raspberry Pi application feature development</li>
+                <li>Managing CI/CD pipelines with Jenkins & Docker</li>
+                <li>Integrated Grafana for live application log monitoring</li>
+              </ul>
+              <div class="tags">
+                <span>Golang</span><span>Android</span><span>Raspberry Pi</span>
+                <span>Docker</span><span>Jenkins</span><span>Grafana</span
+                ><span>REST APIs</span>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fas fa-laptop-code"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-date"
+                ><i class="far fa-calendar-alt"></i> Jan 2023 – Apr 2023</span
+              >
+              <h3>Intern – Python + Django</h3>
+              <h4>
+                <i class="fas fa-map-marker-alt"></i> Heuristics Technopark,
+                Nashik
+              </h4>
+              <ul>
+                <li>
+                  Developed web applications using Python & Django framework
+                </li>
+                <li>
+                  Built an Online Recruitment System as a capstone project
+                </li>
+              </ul>
+              <div class="tags">
+                <span>Python</span><span>Django</span><span>HTML/CSS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <div class="skill-category-header">
+              <div class="skill-icon-wrap"><i class="fas fa-code"></i></div>
+              <h3>Languages</h3>
+            </div>
+            <div class="skill-items">
+              <div class="skill-chip">Golang</div>
+              <div class="skill-chip">Python</div>
+              <div class="skill-chip">Java</div>
+              <div class="skill-chip">Kotlin</div>
+              <div class="skill-chip">JavaScript</div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <div class="skill-category-header">
+              <div class="skill-icon-wrap"><i class="fas fa-globe"></i></div>
+              <h3>Web Development</h3>
+            </div>
+            <div class="skill-items">
+              <div class="skill-chip">HTML5</div>
+              <div class="skill-chip">CSS3</div>
+              <div class="skill-chip">REST APIs</div>
+              <div class="skill-chip">Django</div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <div class="skill-category-header">
+              <div class="skill-icon-wrap">
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+              <h3>Mobile & IoT</h3>
+            </div>
+            <div class="skill-items">
+              <div class="skill-chip">Android</div>
+              <div class="skill-chip">MQTT</div>
+              <div class="skill-chip">Raspberry Pi</div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <div class="skill-category-header">
+              <div class="skill-icon-wrap"><i class="fas fa-tools"></i></div>
+              <h3>DevOps & Tools</h3>
+            </div>
+            <div class="skill-items">
+              <div class="skill-chip">Git & GitHub</div>
+              <div class="skill-chip">Docker</div>
+              <div class="skill-chip">Jenkins</div>
+              <div class="skill-chip">Grafana</div>
+              <div class="skill-chip">Jira</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-card-header">
+              <div class="project-icon"><i class="fas fa-users"></i></div>
+              <div class="project-links">
+                <a href="https://github.com/Revati-Firke" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <h3>Online Recruitment System</h3>
+            <p>
+              A full-featured recruitment web application built with Python &
+              Django, enabling job postings, applications, and candidate
+              management.
+            </p>
+            <div class="project-tech">
+              <span>Python</span><span>Django</span><span>HTML/CSS</span
+              ><span>SQLite</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-card-header">
+              <div class="project-icon"><i class="fas fa-tv"></i></div>
+              <div class="project-links">
+                <a href="https://github.com/Revati-Firke" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <h3>Digital Signage Android App</h3>
+            <p>
+              An Android-based digital signage application for managing and
+              displaying dynamic content on screens with real-time updates via
+              MQTT.
+            </p>
+            <div class="project-tech">
+              <span>Android</span><span>Java/Kotlin</span><span>MQTT</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-card-header">
+              <div class="project-icon"><i class="fas fa-server"></i></div>
+              <div class="project-links">
+                <a href="https://github.com/Revati-Firke" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <h3>Backend API Services</h3>
+            <p>
+              Production RESTful APIs built with Golang at Lemma Technologies —
+              handling data processing, integrations, and real-time
+              communication.
+            </p>
+            <div class="project-tech">
+              <span>Golang</span><span>REST</span><span>Docker</span
+              ><span>Jenkins</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications & Achievements -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <h2 class="section-title">Certifications & Achievements</h2>
+        <div class="cert-grid">
+          <div class="cert-card gold">
+            <div class="cert-icon"><i class="fas fa-trophy"></i></div>
+            <div class="cert-body">
+              <h3>State Level Best Community Direct Award</h3>
+              <p>
+                Awarded by Quick Heal Foundation, Pune for outstanding
+                contribution in cybersecurity awareness.
+              </p>
+            </div>
+          </div>
+          <div class="cert-card blue">
+            <div class="cert-icon"><i class="fas fa-shield-alt"></i></div>
+            <div class="cert-body">
+              <h3>Cyber Shiksha Volunteer</h3>
+              <p>
+                Cyber Suraksha program by Quick Heal Foundation in collaboration
+                with Maharashtra Cyber Cell & NMU Jalgaon (2023–2025).
+              </p>
+            </div>
+          </div>
+          <div class="cert-card purple">
+            <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+            <div class="cert-body">
+              <h3>Certification in Java</h3>
+              <p>
+                Professional certification covering Core Java, OOP concepts, and
+                application development.
+              </p>
+            </div>
+          </div>
+          <div class="cert-card purple">
+            <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+            <div class="cert-body">
+              <h3>Certification in Python</h3>
+              <p>
+                Professional certification in Python programming — scripting,
+                automation, and web development.
+              </p>
+            </div>
+          </div>
+          <div class="cert-card purple">
+            <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+            <div class="cert-body">
+              <h3>Certification in ASP.NET</h3>
+              <p>
+                Completed certification in ASP.NET web application development
+                framework.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="edu-grid">
+          <div class="edu-card">
+            <div class="edu-icon-wrap"><i class="fas fa-university"></i></div>
+            <div class="edu-badge">Post Graduate</div>
+            <h3>Master of Computer Applications (MCA)</h3>
+            <p>
+              Kavayitri Bahinabai Chaudhari North Maharashtra University,
+              Jalgaon
+            </p>
+            <span class="timeline-date"
+              ><i class="far fa-calendar-alt"></i> 2023 – 2025</span
+            >
+          </div>
+          <div class="edu-card">
+            <div class="edu-icon-wrap">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="edu-badge">Under Graduate</div>
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <p>Moolji Jetha Autonomous College, Jalgaon</p>
+            <span class="timeline-date"
+              ><i class="far fa-calendar-alt"></i> 2020 – 2023 &nbsp;|&nbsp;
+              84.50%</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-subtitle">
+          I'm always open to new opportunities and collaborations. Feel free to
+          reach out!
+        </p>
+        <div class="contact-grid">
+          <a href="mailto:revatifirke02@gmail.com" class="contact-card">
+            <div class="contact-icon-wrap"><i class="fas fa-envelope"></i></div>
+            <h3>Email</h3>
+            <p>revatifirke02@gmail.com</p>
+          </a>
+          <a href="tel:+917507098669" class="contact-card">
+            <div class="contact-icon-wrap"><i class="fas fa-phone"></i></div>
+            <h3>Phone</h3>
+            <p>+91 7507098669</p>
+          </a>
+          <a
+            href="https://linkedin.com/in/revati-firke95b73b232"
+            target="_blank"
+            class="contact-card"
+          >
+            <div class="contact-icon-wrap">
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+            <h3>LinkedIn</h3>
+            <p>revati-firke</p>
+          </a>
+          <a
+            href="https://github.com/Revati-Firke"
+            target="_blank"
+            class="contact-card"
+          >
+            <div class="contact-icon-wrap"><i class="fab fa-github"></i></div>
+            <h3>GitHub</h3>
+            <p>Revati-Firke</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">R<span>F</span></div>
+        <div class="footer-links">
+          <a href="#home">Home</a><a href="#about">About</a
+          ><a href="#experience">Experience</a> <a href="#skills">Skills</a
+          ><a href="#projects">Projects</a><a href="#contact">Contact</a>
+        </div>
+        <div class="footer-socials">
+          <a
+            href="https://linkedin.com/in/revati-firke95b73b232"
+            target="_blank"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="https://github.com/Revati-Firke" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="mailto:revatifirke02@gmail.com"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+        <p class="footer-copy">
+          &copy; 2026 Revati Firke. Designed with
+          <i class="fas fa-heart" style="color: var(--accent)"></i> All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
