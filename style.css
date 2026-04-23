@@ -772,9 +772,16 @@ img {
 
 /* ===== Projects ===== */
 .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 24px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.projects-grid .project-card {
+  flex: 0 1 calc(50% - 12px);
+  max-width: 400px;
 }
 .project-card {
   background: var(--white);
