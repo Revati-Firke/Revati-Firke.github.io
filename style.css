@@ -184,6 +184,24 @@ img {
 .nav-links a.active::after {
   width: 100%;
 }
+.nav-links a.nav-resume {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  color: #fff;
+  font-weight: 600;
+}
+.nav-links a.nav-resume::after {
+  display: none;
+}
+.nav-links a.nav-resume:hover {
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(108, 99, 255, 0.4);
+}
 .hamburger {
   display: none;
   flex-direction: column;
