@@ -24,7 +24,7 @@ document.querySelectorAll(".nav-links a").forEach((link) => {
 });
 
 // ===== Typing Animation =====
-const roles = ["Java Developer", "Software Engineer", "Backend Engineer"];
+const roles = ["Software Engineer", "Backend Engineer"];
 let roleIndex = 0,
   charIndex = 0,
   isDeleting = false;
