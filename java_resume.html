@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Revati Firke - Resume</title>
+    <title>Revati Firke - Java Developer Resume</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
@@ -215,6 +215,32 @@
       .project.featured li {
         margin-bottom: 3px;
       }
+      .matrix-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 5px;
+        font-size: 11px;
+      }
+      .matrix-table th,
+      .matrix-table td {
+        padding: 5px 8px;
+        text-align: left;
+        border: 1px solid #e2e8f0;
+      }
+      .matrix-table th {
+        background: #f1f5f9;
+        font-weight: 700;
+        color: #0f172a;
+      }
+      .matrix-table td {
+        color: #475569;
+      }
+      .keywords {
+        font-size: 11px;
+        color: #64748b;
+        line-height: 1.5;
+        margin-top: 5px;
+      }
       @media print {
         @page {
           size: A4;
@@ -242,10 +268,6 @@
           color: #2d3748;
           text-decoration: none;
         }
-        .page-break {
-          page-break-before: always;
-          break-before: page;
-        }
       }
     </style>
   </head>
@@ -269,7 +291,9 @@
       <div class="resume-content">
         <div class="header">
           <h1>REVATI PANDHARINATH FIRKE</h1>
-          <div class="title">Software Engineer | Backend Engineer</div>
+          <div class="title">
+            Software Engineer | Backend Engineer | Java Developer
+          </div>
           <div class="contact-info">
             revatifirke02@gmail.com | +91 7507098669 |
             <a href="https://linkedin.com/in/revati-firke-95b73b232"
@@ -285,12 +309,55 @@
 
         <div class="section summary">
           <p>
-            Software Engineer with 1.8+ years building production REST APIs and
-            backend systems in Golang and Java (Spring Boot). Skilled in
-            Android, SQL, microservices, PostgreSQL/MySQL, and CI/CD (Docker,
-            Jenkins). Strong communicator and community leader with experience
-            delivering cybersecurity sessions; recognized at the state level.
+            Software Engineer with 1.8+ years building production Android apps
+            and backend systems in Java, Spring Boot, Golang, and REST APIs.
+            Hands-on with Spring Data JPA, Spring Security, PostgreSQL/MySQL,
+            JUnit/Mockito, Maven, and CI/CD (Docker, Jenkins). Deployed apps on
+            500+ devices with 99% uptime. Strong communicator and community
+            leader; recognized at the state level for cybersecurity outreach.
           </p>
+        </div>
+
+        <div class="section">
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="skill-row">
+            <strong>Languages:</strong> Java, Golang, SQL, Python, JavaScript
+          </div>
+          <div class="skill-row">
+            <strong>Java / Backend:</strong> Spring Boot, Spring Data JPA,
+            Spring Security, REST APIs, Microservices, Maven, JWT,
+            OpenAPI/Swagger, Collections Framework, Streams, Lambda Expressions,
+            Multithreading
+          </div>
+          <div class="skill-row">
+            <strong>Golang / Backend:</strong> Microservices, Goroutines,
+            Channels, Context, REST APIs, gRPC, Edge Computing, Device-to-Cloud
+            Integration, Error Handling
+          </div>
+          <div class="skill-row">
+            <strong>Databases:</strong> PostgreSQL, MySQL, SQLite
+          </div>
+          <div class="skill-row">
+            <strong>Mobile & IoT:</strong> Android SDK (Java), MQTT, Raspberry
+            Pi, Digital Signage, Message Brokers (Kafka, RabbitMQ)
+          </div>
+          <div class="skill-row">
+            <strong>Testing:</strong> JUnit, Mockito, Golang Testing, Cypress UI
+            Automation
+          </div>
+          <div class="skill-row">
+            <strong>DevOps & Tools:</strong> Docker, Jenkins CI/CD, Postman,
+            Grafana, Nexus, Git, GitHub, Jira, Agile/Scrum, Kubernetes
+          </div>
+          <div class="skill-row">
+            <strong>Security:</strong> OAuth2, JWT, TLS/SSL, Device
+            Certificates, Secure Communication
+          </div>
+          <div class="skill-row">
+            <strong>Core Skills:</strong> Debugging, Troubleshooting, Bug
+            Fixing, Problem Solving, Communication, Public Speaking, Leadership,
+            Mentoring
+          </div>
         </div>
 
         <div class="section">
@@ -304,21 +371,21 @@
           </div>
 
           <div class="exp-sub">
-            <div class="exp-sub-title">Java &amp; Platform Delivery</div>
+            <div class="exp-sub-title">Java &amp; Golang Platform Delivery</div>
             <ul>
               <li>
                 Maintained enterprise Android apps (Java) on 500+ devices; cut
                 production bugs 60% via crash analytics and debugging.
               </li>
               <li>
-                working on digital-signage clients with MQTT sync, offline
-                caching, and remote monitoring across 200+ displays (Windows,
-                Raspberry Pi).
+                Built Java digital-signage clients and Golang microservices with
+                MQTT sync, offline caching, and remote monitoring across 200+
+                displays.
               </li>
               <li>
-                Delivered production REST APIs with query optimization and
-                caching — 99% uptime; automated CI/CD with Jenkins, Docker, Git
-                and Grafana monitoring.
+                Delivered production REST APIs (Spring Boot, Golang) with query
+                optimization and caching — 99% uptime; CI/CD with Jenkins,
+                Docker, Git and Grafana monitoring.
               </li>
             </ul>
           </div>
@@ -337,7 +404,7 @@
               <li>
                 Built schedule sync, offline caching, NTP-timed VLC/WebView
                 playback, and MQTT remote control; integrated local APIs with
-                React onboarding (pairing, config); packaged with systemd.
+                React onboarding; packaged with systemd.
               </li>
             </ul>
             <div class="exp-module-name">
@@ -400,50 +467,12 @@
         </div>
 
         <div class="section">
-          <h2 class="section-title">Technical Skills</h2>
-          <div class="skill-row">
-            <strong>Languages:</strong> Java, Golang, SQL, Python, JavaScript
-          </div>
-          <div class="skill-row">
-            <strong>Java / Backend:</strong> Spring Boot, Spring Data JPA,
-            Spring Security, REST APIs, Microservices, Maven, JWT,
-            OpenAPI/Swagger
-          </div>
-          <div class="skill-row">
-            <strong>Databases:</strong> MySQL, PostgreSQL, SQLite
-          </div>
-          <div class="skill-row">
-            <strong>Mobile &amp; IoT:</strong> Android SDK (Java), MQTT,
-            Raspberry Pi, Digital Signage
-          </div>
-          <div class="skill-row">
-            <strong>Testing:</strong> JUnit, Mockito, Cypress UI Automation,
-            Postman
-          </div>
-          <div class="skill-row">
-            <strong>DevOps &amp; Tools:</strong> Docker, Jenkins CI/CD, Grafana,
-            Nexus, Git, GitHub, Jira, Agile/Scrum
-          </div>
-          <div class="skill-row">
-            <strong>Also worked with:</strong> WhatsApp Business API, Meta Cloud
-            API, systemd, Flyway
-          </div>
-          <div class="skill-row">
-            <strong>Core Skills:</strong> Debugging, Troubleshooting, Bug
-            Fixing, Problem Solving, Communication, Public Speaking, Leadership,
-            Mentoring
-          </div>
-          <div class="skill-row">
-            <strong>AI Tools:</strong> Cursor, GitHub Copilot
-          </div>
-        </div>
-
-        <div class="section">
           <h2 class="section-title">Education</h2>
           <div class="edu-item">
             <div class="edu-head">
               <div class="degree">
-                MCA — KBC North Maharashtra University, Jalgaon(CGPA 8.92)
+                Master of Computer Applications (MCA) — KBC North Maharashtra
+                University, Jalgaon (CGPA 8.92)
               </div>
               <div class="edu-date">2023 – 2025</div>
             </div>
@@ -451,19 +480,22 @@
           <div class="edu-item">
             <div class="edu-head">
               <div class="degree">
-                BCA — Moolji Jetha Autonomous College, Jalgaon (CGPA 9.53)
+                Bachelor of Computer Applications (BCA) — Moolji Jetha
+                Autonomous College, Jalgaon (CGPA 9.53)
               </div>
               <div class="edu-date">2020 – 2023</div>
             </div>
           </div>
         </div>
-        <div class="section page-break">
-          <h2 class="section-title">Achievements &amp; Certifications</h2>
+
+        <div class="section">
+          <h2 class="section-title">Achievements & Certifications</h2>
           <div class="skill-row">
             State Level Best Community Director Award — Quick Heal Foundation
             (2024), conferred in the presence of the Honourable Governor of
             Maharashtra.<br />
-            Certifications: Java, Python, ASP.NET, Cybersecurity Essentials.
+            Certifications: Java Programming, Python, ASP.NET, Cybersecurity
+            Essentials
           </div>
         </div>
       </div>
