@@ -8,7 +8,7 @@ revatifirke02@gmail.com | +91 7507098669 | linkedin.com/in/revati-firke | github
 
 ## PROFESSIONAL SUMMARY
 
-Golang Developer with **1.7+ years** building production microservices, edge computing, and real-time systems in **Golang**. Strong in **Golang concurrency** (goroutines, channels), **MQTT/IoT**, **Docker**, and **CI/CD**. Independently owned and deployed a **Golang digital-signage player** on **5000+ Raspberry Pi** devices and shipped a production **WhatsApp microservice**. Also experienced with **Java/Spring Boot**. Strong communicator and community leader with cybersecurity outreach experience.
+Golang Developer with **1.7+ years** building production microservices, edge computing, and real-time systems. Strong in **Golang concurrency** (goroutines, channels), **MQTT/IoT**, **Docker**, and **CI/CD**. Deployed a **Golang digital-signage player** on **200+ Raspberry Pi** devices and shipped a production **WhatsApp microservice**. Strong communicator and community leader with cybersecurity outreach experience.
 
 ---
 
@@ -16,21 +16,17 @@ Golang Developer with **1.7+ years** building production microservices, edge com
 
 **Languages:** Golang, Java, SQL, Python, JavaScript
 
-**Golang / Backend:** Microservices, Goroutines, Channels, Context, Concurrency, REST APIs, API Design, API Development, API Integration, gRPC, Edge Computing, Device-to-Cloud, Error Handling, OpenAPI/Swagger
+**Golang / Backend:** Microservices, Goroutines, Channels, Context, REST APIs, gRPC, Edge Computing, Device-to-Cloud, Error Handling
 
 **Java / Backend:** Spring Boot, Spring Data JPA, Spring Security, REST APIs, Microservices, Maven, JWT, OpenAPI/Swagger
 
-**Databases:** PostgreSQL, MySQL, SQLite, Redis, Caching
+**Databases:** PostgreSQL, MySQL, SQLite
 
-**Mobile & IoT:** MQTT, Raspberry Pi, Digital Signage, Kafka, RabbitMQ, Android SDK (Java)
+**Mobile & IoT:** Android SDK (Java), MQTT, Raspberry Pi, Digital Signage, Kafka, RabbitMQ
 
-**DevOps & Tools:** Docker, Jenkins CI/CD, Automation, Ansible, Kubernetes, Workflows, Grafana, Nexus, systemd, Git, GitHub, Postman, Jira, Agile/Scrum
+**DevOps & Tools:** Docker, Jenkins CI/CD, Grafana, Nexus, systemd, Git, GitHub, Postman, Jira, Agile/Scrum, Kubernetes
 
 **Security:** OAuth2, JWT, TLS/SSL, Device Certificates
-
-**LLM & AI Agents:** LLM, AI Agents
-
-**AI-Assisted Development:** Claude, Cursor, GitHub Copilot
 
 **Core:** Debugging, Troubleshooting, Bug Fixing, Problem Solving, Communication, Public Speaking, Leadership, Mentoring
 
@@ -41,11 +37,11 @@ Golang Developer with **1.7+ years** building production microservices, edge com
 ### Software Engineer — Lemma Technologies, Pune | Jan 2025 – Present
 
 **Golang Platform Delivery**
-- Built Golang microservices with MQTT sync, offline caching, and remote monitoring across **5000+ displays**
-- Delivered production REST APIs in Golang with query optimization and caching — **99% uptime**; CI/CD with Jenkins, Docker, Git and Grafana monitoring
-- Maintained enterprise Android apps (Java) on **5000+ devices**; cut production bugs **60%** via crash analytics and debugging
+- Maintained enterprise Android apps (Java) on **500+ devices**; cut production bugs **60%** via crash analytics and debugging
+- Built Golang microservices and Java digital-signage clients with MQTT sync, offline caching, and remote monitoring across **200+ displays**
+- Delivered production REST APIs (Golang, Java) with query optimization and caching — **99% uptime**; CI/CD with Jenkins, Docker, Git and Grafana monitoring
 
-**Independently Owned Modules (Golang)**
+**Independently Owned Modules**
 
 *Raspberry Pi Digital Signage Player — Golang · Edge Module*
 - Owned end-to-end: architecture, development, packaging, and Jenkins/Nexus CI/CD on Raspberry Pi (Linux ARM)
@@ -68,7 +64,7 @@ Golang Developer with **1.7+ years** building production microservices, edge com
 ### Raspberry Pi Digital Signage Player — Golang (Independently Owned)
 **Tech:** Golang, MQTT, Edge Computing, Docker, Linux ARM, Jenkins, systemd
 
-- Production edge module on **5000+ Raspberry Pi** devices — concurrent sync/download/playback, MQTT remote management, offline-first caching, and CI/CD (ARM cross-compile, Nexus)
+- Production edge module on **200+ Raspberry Pi** devices — concurrent sync/download/playback, MQTT remote management, offline-first caching, and CI/CD (ARM cross-compile, Nexus)
 
 ### WhatsApp Business Messaging Gateway — Golang Microservice
 **Tech:** Golang, REST API, MySQL, Docker, Meta Cloud API, JWT, OpenAPI
@@ -99,7 +95,7 @@ Golang Developer with **1.7+ years** building production microservices, edge com
 
 ## ATS KEYWORDS
 
-Golang, Go, Java, Microservices, Goroutines, Channels, Context, REST API, API Design, API Development, API Integration, gRPC, Edge Computing, MQTT, IoT, Raspberry Pi, Docker, Jenkins, CI/CD, MySQL, PostgreSQL, Redis, Caching, JWT, OAuth2, OpenAPI, Swagger, systemd, Nexus, Grafana, WhatsApp Business API, Meta Cloud API, Backend Development, Concurrency, Device-to-Cloud, Offline-First, LLM, AI Agents, Claude, Cursor, GitHub Copilot, Debugging, Agile, Scrum, Communication, Public Speaking, Leadership, Mentoring, Stakeholder Management, Community Outreach, Cybersecurity Awareness
+Golang, Go, Microservices, Goroutines, Channels, Context, REST API, gRPC, Edge Computing, MQTT, IoT, Raspberry Pi, Docker, Jenkins, CI/CD, MySQL, PostgreSQL, JWT, OAuth2, OpenAPI, Swagger, systemd, Nexus, Grafana, WhatsApp Business API, Meta Cloud API, Backend Development, Concurrency, Device-to-Cloud, Offline-First, Debugging, Agile, Scrum, Communication, Public Speaking, Leadership, Mentoring, Stakeholder Management, Community Outreach, Cybersecurity Awareness
 
 ---
 

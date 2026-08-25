@@ -8,7 +8,7 @@ revatifirke02@gmail.com | +91 7507098669 | linkedin.com/in/revati-firke | github
 
 ## PROFESSIONAL SUMMARY
 
-Java Developer with **1.7+ years** building production REST APIs and backend systems using **Java**, **Spring Boot**, **Spring Data JPA**, and **Spring Security**. Hands-on with **PostgreSQL/MySQL**, **JUnit/Mockito**, **Maven**, and **CI/CD** (Docker, Jenkins). Also worked with **Golang** for edge and messaging modules. Deployed apps on **5000+ devices** with **99% uptime**. Strong communicator and community leader with cybersecurity outreach experience.
+Java Developer with **1.7+ years** building production REST APIs and backend systems using **Java**, **Spring Boot**, **Spring Data JPA**, and **Spring Security**. Hands-on with **PostgreSQL/MySQL**, **JUnit/Mockito**, **Maven**, and **CI/CD** (Docker, Jenkins). Deployed apps on **500+ devices** with **99% uptime**. Strong communicator and community leader with cybersecurity outreach experience.
 
 ---
 
@@ -16,21 +16,15 @@ Java Developer with **1.7+ years** building production REST APIs and backend sys
 
 **Languages:** Java, Golang, SQL, Python, JavaScript
 
-**Java / Backend:** Spring Boot, Spring Data JPA, Spring Security, Spring MVC, REST APIs, API Design, API Development, API Integration, Microservices, Maven, JWT, OAuth2, OpenAPI/Swagger, Collections, Streams, Lambda, Multithreading, Hibernate/JPA
+**Java / Backend:** Spring Boot, Spring Data JPA, Spring Security, Spring MVC, REST APIs, Microservices, Maven, JWT, OAuth2, OpenAPI/Swagger, Collections, Streams, Lambda, Multithreading, Hibernate/JPA
 
-**Golang / Backend:** Microservices, Goroutines, Channels, Context, REST APIs, gRPC, Edge Computing, Device-to-Cloud, Error Handling
-
-**Databases:** PostgreSQL, MySQL, SQLite, Redis, Caching | SQL, Joins, Indexing, Query Optimization
+**Databases:** PostgreSQL, MySQL, SQLite | SQL, Joins, Indexing, Query Optimization
 
 **Testing:** JUnit 5, Mockito, Integration Testing, TDD
 
 **Mobile & IoT:** Android SDK (Java), MQTT, Raspberry Pi, Digital Signage, Kafka, RabbitMQ
 
-**DevOps & Tools:** Docker, Jenkins CI/CD, Automation, Ansible, Kubernetes, Workflows, Grafana, Nexus, Git, GitHub, Postman, Jira, Agile/Scrum
-
-**LLM & AI Agents:** LLM, AI Agents
-
-**AI-Assisted Development:** Claude, Cursor, GitHub Copilot
+**DevOps & Tools:** Docker, Jenkins CI/CD, Grafana, Nexus, Git, GitHub, Postman, Jira, Agile/Scrum
 
 **Core:** Debugging, Troubleshooting, Bug Fixing, OOP, SOLID, Design Patterns, Communication, Public Speaking, Leadership, Mentoring
 
@@ -41,11 +35,11 @@ Java Developer with **1.7+ years** building production REST APIs and backend sys
 ### Software Engineer — Lemma Technologies, Pune | Jan 2025 – Present
 
 **Java & Platform Delivery**
-- Maintained enterprise Android apps (Java) on **5000+ devices**; cut production bugs **60%** via crash analytics and debugging
-- Built digital-signage clients with MQTT sync, offline caching, and remote monitoring across **5000+ displays**
-- Delivered production REST APIs (Java, Spring Boot) with query optimization and caching — **99% uptime**; CI/CD with Jenkins, Docker, Git and Grafana monitoring
+- Maintained enterprise Android apps (Java) on **500+ devices**; cut production bugs **60%** via crash analytics and debugging
+- Built digital-signage clients with MQTT sync, offline caching, and remote monitoring across **200+ displays**
+- Delivered production REST APIs with query optimization and caching — **99% uptime**; CI/CD with Jenkins, Docker, Git and Grafana monitoring
 
-**Independently Owned Modules (Golang)**
+**Independently Owned Modules**
 
 *Raspberry Pi Digital Signage Player — Golang · Edge Module*
 - Owned end-to-end: architecture, development, packaging, and Jenkins/Nexus CI/CD on Raspberry Pi (Linux ARM)
@@ -73,7 +67,7 @@ Java Developer with **1.7+ years** building production REST APIs and backend sys
 ### Digital Signage Android App — Production
 **Tech:** Java, Android SDK, MQTT, SQLite, REST APIs
 
-- Production Android app on **5000+ devices** with MQTT sync, offline caching, remote monitoring, and **99% uptime**; cut bugs **60%**
+- Production Android app on **500+ devices** with MQTT sync, offline caching, remote monitoring, and **99% uptime**; cut bugs **60%**
 
 ---
 
@@ -94,7 +88,7 @@ Java Developer with **1.7+ years** building production REST APIs and backend sys
 
 ## ATS KEYWORDS
 
-Java, Spring Boot, Spring Framework, Spring Data JPA, Spring Security, Spring MVC, REST API, API Design, API Development, API Integration, Microservices, Backend Development, Java 8, Java 17, Collections, Multithreading, Lambda, Streams, PostgreSQL, MySQL, SQL, Redis, Caching, JUnit, Mockito, Maven, Git, Docker, Jenkins, CI/CD, Agile, Scrum, JIRA, JWT, OAuth2, Hibernate, JPA, OpenAPI, Swagger, LLM, AI Agents, Claude, Cursor, GitHub Copilot, Debugging, Performance Optimization, SDLC, Communication, Public Speaking, Leadership, Mentoring, Stakeholder Management, Community Outreach, Cybersecurity Awareness
+Java, Spring Boot, Spring Framework, Spring Data JPA, Spring Security, Spring MVC, REST API, Microservices, Backend Development, Java 8, Java 17, Collections, Multithreading, Lambda, Streams, PostgreSQL, MySQL, SQL, JUnit, Mockito, Maven, Git, Docker, Jenkins, CI/CD, Agile, Scrum, JIRA, JWT, OAuth2, Hibernate, JPA, OpenAPI, Swagger, Debugging, Performance Optimization, SDLC, Communication, Public Speaking, Leadership, Mentoring, Stakeholder Management, Community Outreach, Cybersecurity Awareness
 
 ---
 
