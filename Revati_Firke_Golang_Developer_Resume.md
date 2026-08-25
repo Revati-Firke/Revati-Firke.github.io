@@ -37,22 +37,26 @@ Golang Developer with **1.7+ years** building production microservices, edge com
 ### Software Engineer — Lemma Technologies, Pune | Jan 2025 – Present
 
 **Golang Platform Delivery**
+
 - Maintained enterprise Android apps (Java) on **500+ devices**; cut production bugs **60%** via crash analytics and debugging
 - Built Golang microservices and Java digital-signage clients with MQTT sync, offline caching, and remote monitoring across **200+ displays**
 - Delivered production REST APIs (Golang, Java) with query optimization and caching — **99% uptime**; CI/CD with Jenkins, Docker, Git and Grafana monitoring
 
 **Independently Owned Modules**
 
-*Raspberry Pi Digital Signage Player — Golang · Edge Module*
+_Raspberry Pi Digital Signage Player — Golang · Edge Module_
+
 - Owned end-to-end: architecture, development, packaging, and Jenkins/Nexus CI/CD on Raspberry Pi (Linux ARM)
 - Built schedule sync, offline caching, NTP-timed VLC/WebView playback, and MQTT remote control; integrated local APIs with React onboarding; packaged with systemd
 
-*WhatsApp Business Messaging Gateway — Golang · Microservice*
+_WhatsApp Business Messaging Gateway — Golang · Microservice_
+
 - Designed and shipped a production WhatsApp microservice as a shared gateway; Meta Cloud API templates, opt-in/delivery tracking, JWT REST APIs, and MySQL
 - Dockerized with health checks, OpenAPI docs, and CI/CD-ready build/deploy automation
 
 ### Community Director (Volunteer) — Quick Heal Foundation | 2023 – 2025
-*Cyber Shiksha for Cyber Suraksha*
+
+_Cyber Shiksha for Cyber Suraksha_
 
 - Delivered cybersecurity awareness sessions across schools, colleges, and engineering institutes — building **public speaking**, **confidence**, and clear **stakeholder communication**
 - Awarded **State Level Best Community Director (2024)** by Quick Heal Foundation, conferred in the presence of the Honourable Governor of Maharashtra
@@ -62,16 +66,19 @@ Golang Developer with **1.7+ years** building production microservices, edge com
 ## KEY PROJECTS
 
 ### Raspberry Pi Digital Signage Player — Golang (Independently Owned)
+
 **Tech:** Golang, MQTT, Edge Computing, Docker, Linux ARM, Jenkins, systemd
 
 - Production edge module on **200+ Raspberry Pi** devices — concurrent sync/download/playback, MQTT remote management, offline-first caching, and CI/CD (ARM cross-compile, Nexus)
 
 ### WhatsApp Business Messaging Gateway — Golang Microservice
+
 **Tech:** Golang, REST API, MySQL, Docker, Meta Cloud API, JWT, OpenAPI
 
 - Shared production gateway for Lemma products — template messaging, consent/delivery tracking, JWT APIs, Docker, health checks, CI/CD
 
 ### Personal Finance Tracker — Spring Boot
+
 **Tech:** Java 17, Spring Boot, Spring Data JPA, Spring Security, PostgreSQL, Flyway, Docker
 
 - REST backend for expense tracking, budgets, recurring expenses, and CSV export

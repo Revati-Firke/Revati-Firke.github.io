@@ -35,22 +35,26 @@ Java Developer with **1.7+ years** building production REST APIs and backend sys
 ### Software Engineer — Lemma Technologies, Pune | Jan 2025 – Present
 
 **Java & Platform Delivery**
+
 - Maintained enterprise Android apps (Java) on **500+ devices**; cut production bugs **60%** via crash analytics and debugging
 - Built digital-signage clients with MQTT sync, offline caching, and remote monitoring across **200+ displays**
 - Delivered production REST APIs with query optimization and caching — **99% uptime**; CI/CD with Jenkins, Docker, Git and Grafana monitoring
 
 **Independently Owned Modules**
 
-*Raspberry Pi Digital Signage Player — Golang · Edge Module*
+_Raspberry Pi Digital Signage Player — Golang · Edge Module_
+
 - Owned end-to-end: architecture, development, packaging, and Jenkins/Nexus CI/CD on Raspberry Pi (Linux ARM)
 - Built schedule sync, offline caching, NTP-timed VLC/WebView playback, and MQTT remote control; integrated local APIs with React onboarding; packaged with systemd
 
-*WhatsApp Business Messaging Gateway — Golang · Microservice*
+_WhatsApp Business Messaging Gateway — Golang · Microservice_
+
 - Designed and shipped a production WhatsApp microservice as a shared gateway; Meta Cloud API templates, opt-in/delivery tracking, JWT REST APIs, and MySQL
 - Dockerized with health checks, OpenAPI docs, and CI/CD-ready build/deploy automation
 
 ### Community Director (Volunteer) — Quick Heal Foundation | 2023 – 2025
-*Cyber Shiksha for Cyber Suraksha*
+
+_Cyber Shiksha for Cyber Suraksha_
 
 - Delivered cybersecurity awareness sessions across schools, colleges, and engineering institutes — building **public speaking**, **confidence**, and clear **stakeholder communication**
 - Awarded **State Level Best Community Director (2024)** by Quick Heal Foundation, conferred in the presence of the Honourable Governor of Maharashtra
@@ -60,11 +64,13 @@ Java Developer with **1.7+ years** building production REST APIs and backend sys
 ## KEY PROJECTS
 
 ### Personal Finance Tracker — Spring Boot (Featured)
+
 **Tech:** Java 17, Spring Boot, Spring Data JPA, Spring Security, PostgreSQL, Flyway, Docker
 
 - Spring Boot REST backend for expense tracking, budgets, recurring expenses, and CSV export — Spring Data JPA, Flyway, Spring Security (JWT), OpenAPI/Swagger, JUnit/Mockito, Docker
 
 ### Digital Signage Android App — Production
+
 **Tech:** Java, Android SDK, MQTT, SQLite, REST APIs
 
 - Production Android app on **500+ devices** with MQTT sync, offline caching, remote monitoring, and **99% uptime**; cut bugs **60%**
