@@ -22,7 +22,9 @@ Java Developer with **1.7+ years** building production REST APIs and backend sys
 
 **Testing:** JUnit 5, Mockito, Integration Testing, TDD
 
-**Mobile & IoT:** Android SDK (Java), MQTT, Raspberry Pi, Digital Signage, Kafka, RabbitMQ
+**Mobile & IoT:** Android SDK (Java), MQTT, Raspberry Pi, Digital Signage
+
+**Message Brokers:** Kafka
 
 **DevOps & Tools:** Docker, Jenkins CI/CD, Grafana, Nexus, Git, GitHub, Postman, Jira, Agile/Scrum
 

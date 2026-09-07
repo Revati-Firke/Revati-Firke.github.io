@@ -16,17 +16,19 @@ Golang Developer with **1.7+ years** building production microservices, edge com
 
 **Languages:** Golang, Java, SQL, Python, JavaScript
 
-**Golang / Backend:** Microservices, Goroutines, Channels, Context, REST APIs, gRPC, Edge Computing, Device-to-Cloud, Error Handling
+**Golang / Backend:** Microservices, Goroutines, Channels, Context, REST APIs, Edge Computing, Device-to-Cloud, Error Handling
 
 **Java / Backend:** Spring Boot, Spring Data JPA, Spring Security, REST APIs, Microservices, Maven, JWT, OpenAPI/Swagger
 
 **Databases:** PostgreSQL, MySQL, SQLite
 
-**Mobile & IoT:** Android SDK (Java), MQTT, Raspberry Pi, Digital Signage, Kafka, RabbitMQ
+**Mobile & IoT:** Android SDK (Java), MQTT, Raspberry Pi, Digital Signage
+
+**Message Brokers:** Kafka
 
 **DevOps & Tools:** Docker, Jenkins CI/CD, Grafana, Nexus, systemd, Git, GitHub, Postman, Jira, Agile/Scrum, Kubernetes
 
-**Security:** OAuth2, JWT, TLS/SSL, Device Certificates
+**Security:** OAuth2, JWT, TLS/SSL
 
 **Core:** Debugging, Troubleshooting, Bug Fixing, Problem Solving, Communication, Public Speaking, Leadership, Mentoring
 
@@ -96,13 +98,13 @@ _Cyber Shiksha for Cyber Suraksha_
 
 - **State Level Best Community Director Award** — Quick Heal Foundation (2024), conferred in the presence of the Honourable Governor of Maharashtra
 - Cyber Shiksha Community Director (2023–2025)
-- Certifications: Golang, Java, Python, Cybersecurity Essentials
+- Certifications: Java, Python, Cybersecurity Essentials
 
 ---
 
 ## ATS KEYWORDS
 
-Golang, Go, Microservices, Goroutines, Channels, Context, REST API, gRPC, Edge Computing, MQTT, IoT, Raspberry Pi, Docker, Jenkins, CI/CD, MySQL, PostgreSQL, JWT, OAuth2, OpenAPI, Swagger, systemd, Nexus, Grafana, WhatsApp Business API, Meta Cloud API, Backend Development, Concurrency, Device-to-Cloud, Offline-First, Debugging, Agile, Scrum, Communication, Public Speaking, Leadership, Mentoring, Stakeholder Management, Community Outreach, Cybersecurity Awareness
+Golang, Go, Microservices, Goroutines, Channels, Context, REST API, Edge Computing, MQTT, IoT, Raspberry Pi, Docker, Jenkins, CI/CD, MySQL, PostgreSQL, JWT, OAuth2, OpenAPI, Swagger, systemd, Nexus, Grafana, WhatsApp Business API, Meta Cloud API, Backend Development, Concurrency, Device-to-Cloud, Offline-First, Debugging, Agile, Scrum, Communication, Public Speaking, Leadership, Mentoring, Stakeholder Management, Community Outreach, Cybersecurity Awareness
 
 ---
 
