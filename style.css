@@ -925,6 +925,11 @@ img {
   font-size: 1.3rem;
   color: var(--primary);
 }
+.project-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
 .project-links a {
   color: var(--text-light);
   font-size: 1.2rem;
@@ -944,6 +949,31 @@ img {
   font-size: 0.88rem;
   margin-bottom: 18px;
   line-height: 1.7;
+}
+.project-highlights {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.project-highlights li {
+  position: relative;
+  padding-left: 14px;
+  color: var(--text-light);
+  font-size: 0.82rem;
+  line-height: 1.55;
+}
+.project-highlights li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--primary);
 }
 .project-tech {
   display: flex;

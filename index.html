@@ -46,7 +46,7 @@
           <li><a href="#contact">Contact</a></li>
           <li>
             <a
-              href="resume-backend.html"
+              href="resume.html?v=3"
               class="nav-resume"
               target="_blank"
               rel="noopener"
@@ -81,7 +81,7 @@
         </p>
         <div class="hero-btns">
           <a
-            href="resume-backend.html"
+            href="resume.html?v=3"
             class="btn btn-primary"
             target="_blank"
             rel="noopener"
@@ -122,12 +122,12 @@
     <section class="stats-banner">
       <div class="container stats-grid">
         <div class="stat-item">
-          <span class="stat-number" data-target="1">0</span
+          <span class="stat-number" data-target="1.8">0</span
           ><span class="stat-plus">+</span>
           <p>Years Experience</p>
         </div>
         <div class="stat-item">
-          <span class="stat-number" data-target="2">0</span
+          <span class="stat-number" data-target="4">0</span
           ><span class="stat-plus">+</span>
           <p>Projects</p>
         </div>
@@ -490,7 +490,76 @@
         <h2 class="section-title">Projects</h2>
         <div class="projects-grid">
           <div class="project-card featured">
-            <div class="project-badge">Featured · Spring Boot</div>
+            <div class="project-badge">Featured · Go / AI</div>
+            <div class="project-card-header">
+              <div class="project-icon"><i class="fas fa-bolt"></i></div>
+              <div class="project-links">
+                <!-- TODO: replace href with OpsPilot GitHub URL -->
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="OpsPilot on GitHub"
+                  title="Add GitHub URL"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <!-- TODO: replace href with OpsPilot live demo URL -->
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="OpsPilot live demo"
+                  title="Add live demo URL"
+                  ><i class="fas fa-external-link-alt"></i
+                ></a>
+              </div>
+            </div>
+            <h3>OpsPilot — Production Incident Investigator</h3>
+            <p>
+              AI-powered autonomous production incident response platform.
+              Receives alerts, investigates with a Go worker and AI agent,
+              gathers evidence through permissioned tools, grounds analysis with
+              RAG over runbooks and past incidents, and requires human approval
+              before risky remediation — with a React operator dashboard and
+              full audit trail.
+            </p>
+            <ul class="project-highlights">
+              <li>
+                Flow: Alert → API → Postgres/Redis → Worker → Agent + Tools +
+                RAG → RCA → Remediation Proposal → Human Approve/Reject →
+                Execute → Resolved
+              </li>
+              <li>
+                Evidence-based RCA via permissioned tools (READ_ONLY /
+                REQUIRES_APPROVAL / AUTONOMOUS) and pgvector RAG — not a chatbot
+                wrapper
+              </li>
+              <li>
+                Separate API and worker processes; Redis job hints with DB
+                polling fallback (FOR UPDATE SKIP LOCKED); validated incident
+                state machine with optimistic locking
+              </li>
+              <li>
+                Human-in-the-loop remediation approve/reject; pluggable LLM
+                (mock + OpenAI-compatible) so demos run fully on mocks
+              </li>
+              <li>
+                React dashboard for incidents, timeline, evidence, RCA, approval
+                queue, knowledge search, and integrations status
+              </li>
+              <li>
+                Hardened ops surface: optional API key, rate limits, webhook
+                HMAC, CORS, Prometheus metrics, optional OpenTelemetry, CI
+              </li>
+            </ul>
+            <div class="project-tech">
+              <span>Go 1.23</span><span>Chi</span><span>PostgreSQL</span
+              ><span>pgvector</span><span>Redis</span><span>React 19</span
+              ><span>TypeScript</span><span>Vite</span><span>Docker</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-badge">Spring Boot</div>
             <div class="project-card-header">
               <div class="project-icon"><i class="fas fa-wallet"></i></div>
               <div class="project-links">
@@ -537,6 +606,58 @@
             <div class="project-tech">
               <span>Android</span><span>Java</span><span>MQTT</span
               ><span>SQLite</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-badge">Android · Solo</div>
+            <div class="project-card-header">
+              <div class="project-icon"><i class="fas fa-graduation-cap"></i></div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Revati-Firke/skillora-android"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="Skillora on GitHub"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <h3>Skillora — Career &amp; Skill Development App</h3>
+            <p>
+              Android app that helps students and fresh graduates become
+              job-ready with personalized skill-gap analysis, learning roadmaps,
+              practice, and an AI career coach. Built solo end to end — product
+              design, MVVM architecture, and full implementation. Local-first v1
+              with a pluggable AI layer and billing-ready access gating for future
+              remote AI and Play Billing.
+            </p>
+            <ul class="project-highlights">
+              <li>
+                Onboarding and profile-driven personalization for career goals
+                and target roles
+              </li>
+              <li>
+                Local skill assessment, gap engine vs role requirements, and
+                personalized learning roadmaps
+              </li>
+              <li>
+                Practice topics with progress tracking and a mock AI Career Coach
+                personalized from profile, gaps, and roadmap
+              </li>
+              <li>
+                Clean package structure (ui / viewmodel / data / model / ai /
+                subscription) with AiService abstraction for remote AI later
+              </li>
+              <li>
+                Free/Premium feature gating designed to swap to Google Play
+                Billing without rewriting the UI
+              </li>
+            </ul>
+            <div class="project-tech">
+              <span>Android</span><span>Java</span><span>MVVM</span
+              ><span>Material Components</span><span>Navigation</span
+              ><span>ViewModel</span><span>LiveData</span
+              ><span>View Binding</span>
             </div>
           </div>
         </div>
